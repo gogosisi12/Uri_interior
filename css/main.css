@@ -1,0 +1,12 @@
+#main-upside{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+#index{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
