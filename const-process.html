@@ -9,14 +9,82 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
+    <title> 우리인테리어 </title>
+    <metatag property=“og:url” content="http://bit.ly/38JHUtN">
+    <metatag property=“og:title” content="우리인테리어">
+    <metatag property=“og:description” content="전북권 도배 장판 타일 필름">
+    <metatag property=“og:image” content="main-page-images/building.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">  
+
     <style>
-        .cont-pics{
-            height: 100px; width: 100px; background-color:blue; 
+        .main {
+            padding: 10px;
         }
+
+        img {
+            max-width: 100%;
+        }
+
+        .m-top {
+            display: flex;
+            justify-content: left;
+            align-items: baseline;
+        }
+
+        .com-name-left {
+            display: flex;
+            justify-content: left;
+        }
+
+        .menu {
+            padding-left: 5px;
+            padding-right: 5px;
+
+        }
+
+        .m-mid {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            border-top: 1px solid silver;
+            border-bottom: 1px solid silver;
+            padding: 10px;
+
+        }
+
+        .m-mid div {
+            text-align: center;
+        }
+
+
+        /* 여기서부터  maincontent의 style입니다.*/
+
+        .cont-pics {
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            margin: 20px;
+
+        }
+        .cont-box {
+            display: flex;
+            justify-content: left;
+            border: 1px solid black;
+            margin : 5%
+        }
+        .box-left {
+            border-right: 1px solid black;
+            padding:10px;
+        }
+        .box-right {
+            
+            padding:20px;
+        }
+
+
     </style>
 </head>
 
@@ -24,53 +92,143 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div id="index name"> 견적부터 시공까지 </div>
-        <div id="main-discrp">
-            <p>우리인테리어에 시공을 맡겨주시면 아래와 같은 과정을 거쳐 시공을 하게 됩니다.</p>
+    <!-- 여기서부터 공통으로 위에 들어가는 부분입니다. -->
+    <div class="main">
+        <div class="m-top">
+            <div class="com-name" style="width:20%">
+                <a href="index.html"><img src="main-page-images/com-name.png" alt="com-name"></a>
+            </div>
+            <div class="com-name-left" style="width:60%">
+                <div class="menu">
+                    <a href="com-introduction.html"><img src="main-page-images/menu1.png" alt="site-design"></a>
+                </div>
+                <div class="menu">
+                    <a href="const-process.html"><img src="main-page-images/menu2.png" alt="site-design"></a>
+                </div>
+                <div class="menu">
+                    <a href="materials-product.html"><img src="main-page-images/menu3.png" alt="site-design"></a>
+
+                </div>
+                <div class="menu">
+                    <a href="use-report.html"><img src="main-page-images/menu4.png" alt="site-design"></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="m-mid">
+            <div id="index name" style="font-size: 40px;"> 견적부터 시공까지의 절차 </div>
+            <div id="main-discrp">
+                <p>우리인테리어에 시공을 맡겨주시면 아래와 같은 과정을 거쳐 시공을 하게 됩니다.</p>
+            </div>
         </div>
 
-        <div id="main_contents">
-            <div class=ind-fir>    <p>1. 연락</p>
-                <div class=ind-sec>
-                    <div class=cont-discrp>
-                        평일 8:00 ~ 18:00 사이에 전화를 주시면 언제 찾아뵐지 약속을 잡습니다.
-                    </div>
-                    <div class=cont-pics style="color:white">
-                        <p><strong>사진</strong></p>
-                    </div>
+
+    </div>
+    <!-- 여기까지 공통으로 위에 들어가는 부분입니다. -->
+
+
+
+
+
+    <div id="main_contents">
+        <div class=cont-box>
+            <div class=box-left>
+                <div class=cont-pics style="color:white">
+                    <p><strong>사진</strong></p>
                 </div>
             </div>
-            <div class=ind-fir>    <p>2. 측량 및 견적</p>
-                <div class=ind-sec>
-                    <div class=cont-discrp>
-                        시공하는 곳에 상태 및 면적을 확인, 시공할 자재를 선택하고 견적을 제시합니다.
-                    </div>
-                    <div class=cont-pics style="color:white">
-                        <p><strong>사진</strong></p>
-                    </div>
+            <div class=box-right>
+                <div class="cont-name">
+                    <h3>1. 연락</h3>
                 </div>
-            </div>
-            <div class=ind-fir>    <p>3. 시공준비</p>
-                <div class=ind-sec >
-                    <div class=cont-discrp>
-                        저희는 천연 밀가루풀, 본드 등을 사용하여 벽지 풀칠을 하고 아래와 같은 공구를 준비합니다.
-                    </div>
-                    <div class=cont-pics style="color:white">
-                        <p><strong>사진</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class=ind-fir>    <p>4. 시공</p>
-                <div class=ind-sec>
-                    <div class=cont-discrp>
-                        도배사, 장판기사등 전문가와 함께 시공을 진행합니다.
-                    </div>
-                    <div class=cont-pics style="color:white">
-                        <p><strong>사진</strong></p>
-                    </div>
+                <div class=cont-discrp>
+                    평일 8:00 ~ 18:00 사이에 전화를 주시면 언제 찾아뵐지 약속을 잡습니다.
                 </div>
             </div>
         </div>
+
+        <div class=cont-box>
+            <div class=box-left>
+                <div class=cont-pics style="color:white">
+                    <p><strong>사진</strong></p>
+                </div>
+            </div>
+            <div class=box-right>
+                <div class="cont-name">
+                    <h3>2. 측량 및 견적</h3>
+                </div>
+                <div class=cont-discrp>
+                    시공하는 곳에 상태 및 면적을 확인, 시공할 자재를 선택하고 견적을 제시합니다.
+                </div>
+            </div>
+        </div>
+
+        <div class=cont-box>
+            <div class=box-left>
+                <div class=cont-pics style="color:white">
+                    <p><strong>사진</strong></p>
+                </div>
+            </div>
+            <div class=box-right>
+                <div class="cont-name">
+                    <h3>3. 시공준비</h3>
+                </div>
+                <div class=cont-discrp>
+                    고르신 자재를 주문합니다. 저희는 평소 인기많은 제품을 다량 가지고 있습니다. 이 자재를 사용하실 시에 할인도 해드리고 시공도 더욱 빠르게 진행됩니다.
+                    부자재로는 천연 밀가루풀, 본드 등을 사용하여 벽지 풀칠을 하고 아래와 같은 공구를 준비합니다.
+                </div>
+            </div>
+        </div>
+
+        <div class=cont-box>
+            <div class=box-left>
+                <div class=cont-pics style="color:white">
+                    <p><strong>사진</strong></p>
+                </div>
+            </div>
+            <div class=box-right>
+                <div class="cont-name">
+                    <h3>4. 시공</h3>
+                </div>
+                <div class=cont-discrp>
+                    도배사, 장판기사등 전문가와 함께 시공을 진행합니다.
+                </div>
+            </div>
+        </div>
+
+        <div class=cont-box>
+            <div class=box-left>
+                <div class=cont-pics style="color:white">
+                    <p><strong>사진</strong></p>
+                </div>
+            </div>
+            <div class=box-right>
+                <div class="cont-name">
+                    <h3>5. 주인 확인 후 결제</h3>
+                </div>
+                <div class=cont-discrp>
+                    결제 고고씽
+                </div>
+            </div>
+        </div>
+
+        <div class=cont-box>
+            <div class=box-left>
+                <div class=cont-pics style="color:white">
+                    <p><strong>사진</strong></p>
+                </div>
+            </div>
+            <div class=box-right>
+                <div class="cont-name">
+                    <h3>1. 연락</h3>
+                </div>
+                <div class=cont-discrp>
+                    평일 8:00 ~ 18:00 사이에 전화를 주시면 언제 찾아뵐지 약속을 잡습니다.
+                </div>
+            </div>
+        </div>
+
+    </div>
     <script src="" async defer></script>
 </body>
 
